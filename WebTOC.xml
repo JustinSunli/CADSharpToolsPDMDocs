@@ -2,102 +2,267 @@
 <HelpTOC>
 
   <HelpTOCNode Title="Welcome to CADSharpTools.PDM!" Url="html/d594e155-da23-4f32-85ec-b90466286d00.htm" />
-  <HelpTOCNode Id="daa864b7-c8e9-4658-ab21-0a8e68575e16" Title="CADSharpTools" Url="html/R_Project_CADSharpTools_PDM_Documentation.htm">
-    <HelpTOCNode Id="15e6dbd2-8ce9-41e8-ab48-18ca4d7889d3" Title="CADSharpTools.Commons" Url="html/N_CADSharpTools_Commons.htm">
-      <HelpTOCNode Id="178eb53e-abb3-48fb-bddf-5045bf68493a" Title="CADSharpToolsPDMException Class" Url="html/T_CADSharpTools_Commons_CADSharpToolsPDMException.htm">
-        <HelpTOCNode Id="518fe0ea-7f09-4805-8726-0c4e230f5cbc" Title="CADSharpToolsPDMException Properties" Url="html/Properties_T_CADSharpTools_Commons_CADSharpToolsPDMException.htm">
-          <HelpTOCNode Title="MessageEnum Property " Url="html/P_CADSharpTools_Commons_CADSharpToolsPDMException_MessageEnum.htm" />
+  <HelpTOCNode Id="b3b47bc8-a7cd-48de-a75c-ab907b4ebc2a" Title="CADSharpTools" Url="html/R_Project_CADSharpTools_PDM_Documentation.htm">
+    <HelpTOCNode Id="58943706-09ce-4499-9658-5f1e3b6263fd" Title="CADSharpTools.Core" Url="html/N_CADSharpTools_Core.htm">
+      <HelpTOCNode Id="3da0da94-496a-43f2-b6c2-d1ea232f91ab" Title="busyIndicatorCallBack Class" Url="html/T_CADSharpTools_Core_busyIndicatorCallBack.htm">
+        <HelpTOCNode Title="busyIndicatorCallBack Constructor " Url="html/M_CADSharpTools_Core_busyIndicatorCallBack__ctor.htm" />
+        <HelpTOCNode Id="c30efb14-16cb-4c0d-95b6-db7280bee619" Title="busyIndicatorCallBack Properties" Url="html/Properties_T_CADSharpTools_Core_busyIndicatorCallBack.htm">
+          <HelpTOCNode Title="CancelRequested Property " Url="html/P_CADSharpTools_Core_busyIndicatorCallBack_CancelRequested.htm" />
+          <HelpTOCNode Title="Count Property " Url="html/P_CADSharpTools_Core_busyIndicatorCallBack_Count.htm" />
+          <HelpTOCNode Title="Current Property " Url="html/P_CADSharpTools_Core_busyIndicatorCallBack_Current.htm" />
+          <HelpTOCNode Title="IsIndeterminate Property " Url="html/P_CADSharpTools_Core_busyIndicatorCallBack_IsIndeterminate.htm" />
+          <HelpTOCNode Title="Message Property " Url="html/P_CADSharpTools_Core_busyIndicatorCallBack_Message.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f19eab10-0abd-4cb2-8ba6-bea9ce0e6505" Title="busyIndicatorCallBack Methods" Url="html/Methods_T_CADSharpTools_Core_busyIndicatorCallBack.htm">
+          <HelpTOCNode Title="Cancel Method " Url="html/M_CADSharpTools_Core_busyIndicatorCallBack_Cancel.htm" />
+          <HelpTOCNode Title="Finish Method " Url="html/M_CADSharpTools_Core_busyIndicatorCallBack_Finish.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="63c1b05b-7dbd-4fc8-9001-54b618610ae1" Title="busyIndicatorCallBack Events" Url="html/Events_T_CADSharpTools_Core_busyIndicatorCallBack.htm">
+          <HelpTOCNode Title="Finished Event" Url="html/E_CADSharpTools_Core_busyIndicatorCallBack_Finished.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="58cc723a-cf6b-49e6-bf46-e6ddaeec8686" Title="CTSerialization(T) Class" Url="html/T_CADSharpTools_Commons_CTSerialization_1.htm">
-        <HelpTOCNode Title="CTSerialization(T) Constructor " Url="html/M_CADSharpTools_Commons_CTSerialization_1__ctor.htm" />
-        <HelpTOCNode Id="dadd3bc2-c339-4b1d-a136-7d47dd8b5cc4" Title="CTSerialization(T) Methods" Url="html/Methods_T_CADSharpTools_Commons_CTSerialization_1.htm">
-          <HelpTOCNode Title="Deserialize Method " Url="html/M_CADSharpTools_Commons_CTSerialization_1_Deserialize.htm" />
-          <HelpTOCNode Title="SaveToXML Method " Url="html/M_CADSharpTools_Commons_CTSerialization_1_SaveToXML.htm" />
-          <HelpTOCNode Title="Serialize Method " Url="html/M_CADSharpTools_Commons_CTSerialization_1_Serialize.htm" />
+      <HelpTOCNode Id="198907bc-ce68-4ff3-9501-1654928355a0" Title="busyIndicatorCallBackFinishEventArgs Class" Url="html/T_CADSharpTools_Core_busyIndicatorCallBackFinishEventArgs.htm">
+        <HelpTOCNode Title="busyIndicatorCallBackFinishEventArgs Constructor " Url="html/M_CADSharpTools_Core_busyIndicatorCallBackFinishEventArgs__ctor.htm" />
+        <HelpTOCNode Id="b5723f1d-59ce-4516-8c24-1f92c9fa5d8b" Title="busyIndicatorCallBackFinishEventArgs Properties" Url="html/Properties_T_CADSharpTools_Core_busyIndicatorCallBackFinishEventArgs.htm">
+          <HelpTOCNode Title="State Property " Url="html/P_CADSharpTools_Core_busyIndicatorCallBackFinishEventArgs_State.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="3fe76da8-5de2-4161-86bc-671f70dbf553" Title="Extension Class" Url="html/T_CADSharpTools_Commons_Extension.htm">
-        <HelpTOCNode Id="abc0fcef-2fd4-466e-b7f9-278d03808e7a" Title="Extension Methods" Url="html/Methods_T_CADSharpTools_Commons_Extension.htm">
-          <HelpTOCNode Title="BrowseToFile Method " Url="html/M_CADSharpTools_Commons_Extension_BrowseToFile.htm" />
-          <HelpTOCNode Title="BrowseToFolder Method " Url="html/M_CADSharpTools_Commons_Extension_BrowseToFolder.htm" />
-          <HelpTOCNode Title="FormatTimeFromMinutes Method " Url="html/M_CADSharpTools_Commons_Extension_FormatTimeFromMinutes.htm" />
-          <HelpTOCNode Title="GetAssemblyLocation Method " Url="html/M_CADSharpTools_Commons_Extension_GetAssemblyLocation.htm" />
-          <HelpTOCNode Title="GetAssemblyNameAndVersion Method " Url="html/M_CADSharpTools_Commons_Extension_GetAssemblyNameAndVersion.htm" />
-          <HelpTOCNode Title="GetFilesFromDirectory Method " Url="html/M_CADSharpTools_Commons_Extension_GetFilesFromDirectory.htm" />
-          <HelpTOCNode Title="GetFilesFromDirectoryAsync Method " Url="html/M_CADSharpTools_Commons_Extension_GetFilesFromDirectoryAsync.htm" />
-          <HelpTOCNode Title="GetProgramInstallLocation Method " Url="html/M_CADSharpTools_Commons_Extension_GetProgramInstallLocation.htm" />
+      <HelpTOCNode Title="busyIndicatorCallBackState_e Enumeration" Url="html/T_CADSharpTools_Core_busyIndicatorCallBackState_e.htm" />
+      <HelpTOCNode Id="b4338255-8297-4710-9fa9-fdf645543c15" Title="busyIndicatorInvoker Class" Url="html/T_CADSharpTools_Core_busyIndicatorInvoker.htm">
+        <HelpTOCNode Title="busyIndicatorInvoker Constructor " Url="html/M_CADSharpTools_Core_busyIndicatorInvoker__ctor.htm" />
+        <HelpTOCNode Id="a2151778-f0c4-4aad-ae23-da873b91c448" Title="busyIndicatorInvoker Properties" Url="html/Properties_T_CADSharpTools_Core_busyIndicatorInvoker.htm">
+          <HelpTOCNode Title="Callback Property " Url="html/P_CADSharpTools_Core_busyIndicatorInvoker_Callback.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7b18b33b-b42d-4b6f-8791-88049d5b75bd" Title="busyIndicatorInvoker Methods" Url="html/Methods_T_CADSharpTools_Core_busyIndicatorInvoker.htm">
+          <HelpTOCNode Title="InvokeAsync Method " Url="html/M_CADSharpTools_Core_busyIndicatorInvoker_InvokeAsync.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="bc2f51b2-1c2e-4d5b-ba70-ab6b27e8bd79" Title="MethodReturn Class" Url="html/T_CADSharpTools_Commons_MethodReturn.htm">
-        <HelpTOCNode Id="060a5eb2-0287-495f-aa03-582acd554678" Title="MethodReturn Constructor " Url="html/Overload_CADSharpTools_Commons_MethodReturn__ctor.htm">
-          <HelpTOCNode Title="MethodReturn Constructor (String)" Url="html/M_CADSharpTools_Commons_MethodReturn__ctor_1.htm" />
-          <HelpTOCNode Title="MethodReturn Constructor (Exception, Boolean)" Url="html/M_CADSharpTools_Commons_MethodReturn__ctor.htm" />
-          <HelpTOCNode Title="MethodReturn Constructor (String, Boolean)" Url="html/M_CADSharpTools_Commons_MethodReturn__ctor_2.htm" />
+      <HelpTOCNode Id="dfe2400d-703d-42e0-a3b3-71c78f9ee3ab" Title="ctpICallback Interface" Url="html/T_CADSharpTools_Core_ctpICallback.htm">
+        <HelpTOCNode Id="ded0ae40-d2f9-4656-8b5e-dfbecea59dc4" Title="ctpICallback Properties" Url="html/Properties_T_CADSharpTools_Core_ctpICallback.htm">
+          <HelpTOCNode Title="CancelRequested Property " Url="html/P_CADSharpTools_Core_ctpICallback_CancelRequested.htm" />
+          <HelpTOCNode Title="Message Property " Url="html/P_CADSharpTools_Core_ctpICallback_Message.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="91cf26df-3aeb-41a0-aca5-3a4faa31e833" Title="MethodReturn Properties" Url="html/Properties_T_CADSharpTools_Commons_MethodReturn.htm">
-          <HelpTOCNode Title="Error Property " Url="html/P_CADSharpTools_Commons_MethodReturn_Error.htm" />
-          <HelpTOCNode Title="Exception Property " Url="html/P_CADSharpTools_Commons_MethodReturn_Exception.htm" />
-          <HelpTOCNode Title="IsError Property " Url="html/P_CADSharpTools_Commons_MethodReturn_IsError.htm" />
-          <HelpTOCNode Title="TimeStamp Property " Url="html/P_CADSharpTools_Commons_MethodReturn_TimeStamp.htm" />
-          <HelpTOCNode Title="Warning Property " Url="html/P_CADSharpTools_Commons_MethodReturn_Warning.htm" />
+        <HelpTOCNode Id="5dc65b9b-316a-4239-9aaa-e61990067b3d" Title="ctpICallback Methods" Url="html/Methods_T_CADSharpTools_Core_ctpICallback.htm">
+          <HelpTOCNode Title="Cancel Method " Url="html/M_CADSharpTools_Core_ctpICallback_Cancel.htm" />
+          <HelpTOCNode Title="Finish Method " Url="html/M_CADSharpTools_Core_ctpICallback_Finish.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="c074e0c6-e2e7-48ce-b7f8-de115d32024d" Title="MethodReturn(T) Class" Url="html/T_CADSharpTools_Commons_MethodReturn_1.htm">
-        <HelpTOCNode Id="de952b84-a55c-4eb8-b9a0-577ed9d04df5" Title="MethodReturn(T) Constructor " Url="html/Overload_CADSharpTools_Commons_MethodReturn_1__ctor.htm">
-          <HelpTOCNode Title="MethodReturn(T) Constructor (T, String)" Url="html/M_CADSharpTools_Commons_MethodReturn_1__ctor_2.htm" />
-          <HelpTOCNode Title="MethodReturn(T) Constructor (T, Boolean, String)" Url="html/M_CADSharpTools_Commons_MethodReturn_1__ctor.htm" />
-          <HelpTOCNode Title="MethodReturn(T) Constructor (T, Exception, Boolean)" Url="html/M_CADSharpTools_Commons_MethodReturn_1__ctor_1.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="a31955b8-bba8-40ed-a2dd-62802b82310b" Title="MethodReturn(T) Properties" Url="html/Properties_T_CADSharpTools_Commons_MethodReturn_1.htm">
-          <HelpTOCNode Title="Error Property " Url="html/P_CADSharpTools_Commons_MethodReturn_1_Error.htm" />
-          <HelpTOCNode Title="Exception Property " Url="html/P_CADSharpTools_Commons_MethodReturn_1_Exception.htm" />
-          <HelpTOCNode Title="IsError Property " Url="html/P_CADSharpTools_Commons_MethodReturn_1_IsError.htm" />
-          <HelpTOCNode Title="TimeStamp Property " Url="html/P_CADSharpTools_Commons_MethodReturn_1_TimeStamp.htm" />
-          <HelpTOCNode Title="Value Property " Url="html/P_CADSharpTools_Commons_MethodReturn_1_Value.htm" />
-          <HelpTOCNode Title="Warning Property " Url="html/P_CADSharpTools_Commons_MethodReturn_1_Warning.htm" />
+      <HelpTOCNode Id="452efe98-6ef9-45e7-bc84-a16e406e33d0" Title="Extension Class" Url="html/T_CADSharpTools_Core_Extension.htm">
+        <HelpTOCNode Id="21014baf-290b-435f-acbd-fc7ce544431f" Title="Extension Methods" Url="html/Methods_T_CADSharpTools_Core_Extension.htm">
+          <HelpTOCNode Title="BrowseToFile Method " Url="html/M_CADSharpTools_Core_Extension_BrowseToFile.htm" />
+          <HelpTOCNode Title="BrowseToFolder Method " Url="html/M_CADSharpTools_Core_Extension_BrowseToFolder.htm" />
+          <HelpTOCNode Title="EvaluateDirectory Method " Url="html/M_CADSharpTools_Core_Extension_EvaluateDirectory.htm" />
+          <HelpTOCNode Title="FormatTimeFromMinutes Method " Url="html/M_CADSharpTools_Core_Extension_FormatTimeFromMinutes.htm" />
+          <HelpTOCNode Title="GetAssemblyLocation Method " Url="html/M_CADSharpTools_Core_Extension_GetAssemblyLocation.htm" />
+          <HelpTOCNode Title="GetAssemblyNameAndVersion Method " Url="html/M_CADSharpTools_Core_Extension_GetAssemblyNameAndVersion.htm" />
+          <HelpTOCNode Title="GetFilesFromDirectory Method " Url="html/M_CADSharpTools_Core_Extension_GetFilesFromDirectory.htm" />
+          <HelpTOCNode Title="GetFilesFromDirectoryAsync Method " Url="html/M_CADSharpTools_Core_Extension_GetFilesFromDirectoryAsync.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="004c054a-89ea-401f-8d06-6467640fed20" Title="MethodReturn(T, IConvertible) Class" Url="html/T_CADSharpTools_Commons_MethodReturn_2.htm">
-        <HelpTOCNode Id="a7d13ed6-28d7-4174-b811-dd60bad91e0c" Title="MethodReturn(T, IConvertible) Constructor " Url="html/Overload_CADSharpTools_Commons_MethodReturn_2__ctor.htm">
-          <HelpTOCNode Title="MethodReturn(T, IConvertible) Constructor (T, String)" Url="html/M_CADSharpTools_Commons_MethodReturn_2__ctor_1.htm" />
-          <HelpTOCNode Title="MethodReturn(T, IConvertible) Constructor (T, Boolean, IConvertible)" Url="html/M_CADSharpTools_Commons_MethodReturn_2__ctor.htm" />
+      <HelpTOCNode Id="68194ca0-b607-45dc-9a6f-3e160ef797a6" Title="MethodReturn Class" Url="html/T_CADSharpTools_Core_MethodReturn.htm">
+        <HelpTOCNode Id="37477fbd-b691-4c39-a0d3-612749da2f0b" Title="MethodReturn Constructor " Url="html/Overload_CADSharpTools_Core_MethodReturn__ctor.htm">
+          <HelpTOCNode Title="MethodReturn Constructor " Url="html/M_CADSharpTools_Core_MethodReturn__ctor.htm" />
+          <HelpTOCNode Title="MethodReturn Constructor (String)" Url="html/M_CADSharpTools_Core_MethodReturn__ctor_2.htm" />
+          <HelpTOCNode Title="MethodReturn Constructor (Exception, Boolean)" Url="html/M_CADSharpTools_Core_MethodReturn__ctor_1.htm" />
+          <HelpTOCNode Title="MethodReturn Constructor (String, Boolean)" Url="html/M_CADSharpTools_Core_MethodReturn__ctor_3.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="aa13fc45-6cd1-4e31-ae0b-ead369fef95c" Title="MethodReturn(T, IConvertible) Properties" Url="html/Properties_T_CADSharpTools_Commons_MethodReturn_2.htm">
-          <HelpTOCNode Title="EnumValue Property " Url="html/P_CADSharpTools_Commons_MethodReturn_2_EnumValue.htm" />
-          <HelpTOCNode Title="Error Property " Url="html/P_CADSharpTools_Commons_MethodReturn_2_Error.htm" />
-          <HelpTOCNode Title="Exception Property " Url="html/P_CADSharpTools_Commons_MethodReturn_2_Exception.htm" />
-          <HelpTOCNode Title="IsError Property " Url="html/P_CADSharpTools_Commons_MethodReturn_2_IsError.htm" />
-          <HelpTOCNode Title="Value Property " Url="html/P_CADSharpTools_Commons_MethodReturn_2_Value.htm" />
-          <HelpTOCNode Title="Warning Property " Url="html/P_CADSharpTools_Commons_MethodReturn_2_Warning.htm" />
+        <HelpTOCNode Id="1e60d57d-734c-4c8a-bf33-f016d1373b15" Title="MethodReturn Properties" Url="html/Properties_T_CADSharpTools_Core_MethodReturn.htm">
+          <HelpTOCNode Title="Error Property " Url="html/P_CADSharpTools_Core_MethodReturn_Error.htm" />
+          <HelpTOCNode Title="Exception Property " Url="html/P_CADSharpTools_Core_MethodReturn_Exception.htm" />
+          <HelpTOCNode Title="IsError Property " Url="html/P_CADSharpTools_Core_MethodReturn_IsError.htm" />
+          <HelpTOCNode Title="TimeStamp Property " Url="html/P_CADSharpTools_Core_MethodReturn_TimeStamp.htm" />
+          <HelpTOCNode Title="Warning Property " Url="html/P_CADSharpTools_Core_MethodReturn_Warning.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="350920d6-a8d6-4c44-98bc-6051f1474044" Title="Progress Class" Url="html/T_CADSharpTools_Commons_Progress.htm">
-        <HelpTOCNode Title="Progress Constructor " Url="html/M_CADSharpTools_Commons_Progress__ctor.htm" />
-        <HelpTOCNode Id="5c7a4bb7-b9a0-4e75-a118-f7f7217ab0ed" Title="Progress Properties" Url="html/Properties_T_CADSharpTools_Commons_Progress.htm">
-          <HelpTOCNode Title="IsIndeterminate Property " Url="html/P_CADSharpTools_Commons_Progress_IsIndeterminate.htm" />
-          <HelpTOCNode Title="Max Property " Url="html/P_CADSharpTools_Commons_Progress_Max.htm" />
-          <HelpTOCNode Title="Message Property " Url="html/P_CADSharpTools_Commons_Progress_Message.htm" />
-          <HelpTOCNode Title="ProgressColor Property " Url="html/P_CADSharpTools_Commons_Progress_ProgressColor.htm" />
-          <HelpTOCNode Title="Value Property " Url="html/P_CADSharpTools_Commons_Progress_Value.htm" />
+      <HelpTOCNode Id="48142800-362b-4a48-98bd-41605b06b4a9" Title="MethodReturn(T) Class" Url="html/T_CADSharpTools_Core_MethodReturn_1.htm">
+        <HelpTOCNode Id="14f77a4b-cb39-48eb-ba36-19c05c4823ab" Title="MethodReturn(T) Constructor " Url="html/Overload_CADSharpTools_Core_MethodReturn_1__ctor.htm">
+          <HelpTOCNode Title="MethodReturn(T) Constructor (T, String)" Url="html/M_CADSharpTools_Core_MethodReturn_1__ctor_2.htm" />
+          <HelpTOCNode Title="MethodReturn(T) Constructor (T, Boolean, String)" Url="html/M_CADSharpTools_Core_MethodReturn_1__ctor.htm" />
+          <HelpTOCNode Title="MethodReturn(T) Constructor (T, Exception, Boolean)" Url="html/M_CADSharpTools_Core_MethodReturn_1__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="20d16472-b759-4da3-9608-8d1323ddf0bd" Title="Progress Methods" Url="html/Methods_T_CADSharpTools_Commons_Progress.htm">
-          <HelpTOCNode Title="Cancel Method " Url="html/M_CADSharpTools_Commons_Progress_Cancel.htm" />
-          <HelpTOCNode Title="Complete Method " Url="html/M_CADSharpTools_Commons_Progress_Complete.htm" />
-          <HelpTOCNode Title="CompleteWithError Method " Url="html/M_CADSharpTools_Commons_Progress_CompleteWithError.htm" />
-          <HelpTOCNode Title="Report Method " Url="html/M_CADSharpTools_Commons_Progress_Report.htm" />
-          <HelpTOCNode Title="Reset Method " Url="html/M_CADSharpTools_Commons_Progress_Reset.htm" />
+        <HelpTOCNode Id="054d670a-efea-4346-a5de-db1f2718d59e" Title="MethodReturn(T) Properties" Url="html/Properties_T_CADSharpTools_Core_MethodReturn_1.htm">
+          <HelpTOCNode Title="Error Property " Url="html/P_CADSharpTools_Core_MethodReturn_1_Error.htm" />
+          <HelpTOCNode Title="Exception Property " Url="html/P_CADSharpTools_Core_MethodReturn_1_Exception.htm" />
+          <HelpTOCNode Title="IsError Property " Url="html/P_CADSharpTools_Core_MethodReturn_1_IsError.htm" />
+          <HelpTOCNode Title="TimeStamp Property " Url="html/P_CADSharpTools_Core_MethodReturn_1_TimeStamp.htm" />
+          <HelpTOCNode Title="Value Property " Url="html/P_CADSharpTools_Core_MethodReturn_1_Value.htm" />
+          <HelpTOCNode Title="Warning Property " Url="html/P_CADSharpTools_Core_MethodReturn_1_Warning.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="a941fa38-01fa-4803-98c7-3c0dd714912e" Title="MethodReturn(T, IConvertible) Class" Url="html/T_CADSharpTools_Core_MethodReturn_2.htm">
+        <HelpTOCNode Id="fd9c7004-b6f6-4001-8ce6-404aded0242f" Title="MethodReturn(T, IConvertible) Constructor " Url="html/Overload_CADSharpTools_Core_MethodReturn_2__ctor.htm">
+          <HelpTOCNode Title="MethodReturn(T, IConvertible) Constructor (T)" Url="html/M_CADSharpTools_Core_MethodReturn_2__ctor.htm" />
+          <HelpTOCNode Title="MethodReturn(T, IConvertible) Constructor (T, String)" Url="html/M_CADSharpTools_Core_MethodReturn_2__ctor_3.htm" />
+          <HelpTOCNode Title="MethodReturn(T, IConvertible) Constructor (T, Boolean, IConvertible)" Url="html/M_CADSharpTools_Core_MethodReturn_2__ctor_1.htm" />
+          <HelpTOCNode Title="MethodReturn(T, IConvertible) Constructor (T, Exception, Boolean, IConvertible)" Url="html/M_CADSharpTools_Core_MethodReturn_2__ctor_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="83e822cc-6f84-4c58-a5b5-32235fa7d2cc" Title="MethodReturn(T, IConvertible) Properties" Url="html/Properties_T_CADSharpTools_Core_MethodReturn_2.htm">
+          <HelpTOCNode Title="EnumValue Property " Url="html/P_CADSharpTools_Core_MethodReturn_2_EnumValue.htm" />
+          <HelpTOCNode Title="Error Property " Url="html/P_CADSharpTools_Core_MethodReturn_2_Error.htm" />
+          <HelpTOCNode Title="Exception Property " Url="html/P_CADSharpTools_Core_MethodReturn_2_Exception.htm" />
+          <HelpTOCNode Title="IsError Property " Url="html/P_CADSharpTools_Core_MethodReturn_2_IsError.htm" />
+          <HelpTOCNode Title="Value Property " Url="html/P_CADSharpTools_Core_MethodReturn_2_Value.htm" />
+          <HelpTOCNode Title="Warning Property " Url="html/P_CADSharpTools_Core_MethodReturn_2_Warning.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c0136fbc-5cca-4b0a-8a1f-e9cdd0facfeb" Title="CADSharpTools.PDM" Url="html/N_CADSharpTools_PDM.htm">
-      <HelpTOCNode Id="debbf6ba-2397-468a-8b6e-3d632fb2019b" Title="Extension Class" Url="html/T_CADSharpTools_PDM_Extension.htm">
-        <HelpTOCNode Id="d6a3eb4c-1d79-42f9-9a21-9f4eba434d20" Title="Extension Methods" Url="html/Methods_T_CADSharpTools_PDM_Extension.htm">
-          <HelpTOCNode Id="7fcbbf24-6fd9-4275-b7e6-01bc750ab428" Title="BatchCheckIn Method " Url="html/Overload_CADSharpTools_PDM_Extension_BatchCheckIn.htm">
+    <HelpTOCNode Id="038c50f4-c8d1-4ec5-b08f-7bbef833cffe" Title="CADSharpTools.Core.Models" Url="html/N_CADSharpTools_Core_Models.htm">
+      <HelpTOCNode Id="f0dc03d0-11fa-47f1-bec0-637662570bdc" Title="Document Class" Url="html/T_CADSharpTools_Core_Models_Document.htm">
+        <HelpTOCNode Title="Document Constructor " Url="html/M_CADSharpTools_Core_Models_Document__ctor.htm" />
+        <HelpTOCNode Id="16d9e45e-bb1c-44bc-ab43-977b09c78ad3" Title="Document Properties" Url="html/Properties_T_CADSharpTools_Core_Models_Document.htm">
+          <HelpTOCNode Title="FolderID Property " Url="html/P_CADSharpTools_Core_Models_Document_FolderID.htm" />
+          <HelpTOCNode Title="HasChildren Property " Url="html/P_CADSharpTools_Core_Models_Document_HasChildren.htm" />
+          <HelpTOCNode Title="ID Property " Url="html/P_CADSharpTools_Core_Models_Document_ID.htm" />
+          <HelpTOCNode Title="LocalPath Property " Url="html/P_CADSharpTools_Core_Models_Document_LocalPath.htm" />
+          <HelpTOCNode Title="NeedsRegeneration Property " Url="html/P_CADSharpTools_Core_Models_Document_NeedsRegeneration.htm" />
+          <HelpTOCNode Title="References Property " Url="html/P_CADSharpTools_Core_Models_Document_References.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a4e43039-e3e8-441e-9dd3-d8718fdc61a8" Title="Document Methods" Url="html/Methods_T_CADSharpTools_Core_Models_Document.htm">
+          <HelpTOCNode Title="ConstructReferenceTree Method " Url="html/M_CADSharpTools_Core_Models_Document_ConstructReferenceTree.htm" />
+          <HelpTOCNode Title="FlattenReferences Method " Url="html/M_CADSharpTools_Core_Models_Document_FlattenReferences.htm" />
+          <HelpTOCNode Title="GetRebuildOrder Method " Url="html/M_CADSharpTools_Core_Models_Document_GetRebuildOrder.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="DocumentType_e Enumeration" Url="html/T_CADSharpTools_Core_Models_DocumentType_e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3c7835e6-029b-46fb-abfc-b80b1e113f76" Title="CADSharpTools.Database" Url="html/N_CADSharpTools_Database.htm">
+      <HelpTOCNode Id="c4fc8242-e735-43b4-a94a-4f1bef382495" Title="SQLHandler Class" Url="html/T_CADSharpTools_Database_SQLHandler.htm">
+        <HelpTOCNode Id="23f32ead-69b3-4e6f-b633-f3d02ff2704d" Title="SQLHandler Properties" Url="html/Properties_T_CADSharpTools_Database_SQLHandler.htm">
+          <HelpTOCNode Title="Connection Property " Url="html/P_CADSharpTools_Database_SQLHandler_Connection.htm" />
+          <HelpTOCNode Title="ConnectionString Property " Url="html/P_CADSharpTools_Database_SQLHandler_ConnectionString.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="422de0f2-98ff-45e2-abd7-13e67d8ac02a" Title="SQLHandler Methods" Url="html/Methods_T_CADSharpTools_Database_SQLHandler.htm">
+          <HelpTOCNode Title="Close Method " Url="html/M_CADSharpTools_Database_SQLHandler_Close.htm" />
+          <HelpTOCNode Title="Dispose Method " Url="html/M_CADSharpTools_Database_SQLHandler_Dispose.htm" />
+          <HelpTOCNode Title="Open Method " Url="html/M_CADSharpTools_Database_SQLHandler_Open.htm" />
+          <HelpTOCNode Id="51a69361-6257-4dea-8aa0-cf5b03c655c7" Title="PerformSQLTransaction Method " Url="html/Overload_CADSharpTools_Database_SQLHandler_PerformSQLTransaction.htm">
+            <HelpTOCNode Title="PerformSQLTransaction Method (Func(SqlConnection, MethodReturn(Boolean)))" Url="html/M_CADSharpTools_Database_SQLHandler_PerformSQLTransaction.htm" />
+            <HelpTOCNode Title="PerformSQLTransaction(T) Method (Func(SqlConnection, MethodReturn(T)))" Url="html/M_CADSharpTools_Database_SQLHandler_PerformSQLTransaction__1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="SetConnectionString Method " Url="html/M_CADSharpTools_Database_SQLHandler_SetConnectionString.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="15f644d2-2ee9-419f-88ae-7cfd6261111a" Title="CADSharpTools.Diagnostics" Url="html/N_CADSharpTools_Diagnostics.htm">
+      <HelpTOCNode Id="b6a9f45c-fe53-4c36-9cb7-78fc9f6380a2" Title="Logger Class" Url="html/T_CADSharpTools_Diagnostics_Logger.htm">
+        <HelpTOCNode Title="Logger Constructor " Url="html/M_CADSharpTools_Diagnostics_Logger__ctor.htm" />
+        <HelpTOCNode Id="1a23ecd2-908a-49f1-aba6-68eceaa1ceb3" Title="Logger Properties" Url="html/Properties_T_CADSharpTools_Diagnostics_Logger.htm">
+          <HelpTOCNode Title="LogsFolder Property " Url="html/P_CADSharpTools_Diagnostics_Logger_LogsFolder.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="074ca917-0022-4870-8b26-55fbbca394aa" Title="Logger Methods" Url="html/Methods_T_CADSharpTools_Diagnostics_Logger.htm">
+          <HelpTOCNode Title="Print Method " Url="html/M_CADSharpTools_Diagnostics_Logger_Print.htm" />
+          <HelpTOCNode Title="PrintEndInfo Method " Url="html/M_CADSharpTools_Diagnostics_Logger_PrintEndInfo.htm" />
+          <HelpTOCNode Title="PrintStartInfo Method " Url="html/M_CADSharpTools_Diagnostics_Logger_PrintStartInfo.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Logger.MessageType Enumeration" Url="html/T_CADSharpTools_Diagnostics_Logger_MessageType.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="908eefa3-77ad-45a3-a0cf-474552280feb" Title="CADSharpTools.DocumentManager" Url="html/N_CADSharpTools_DocumentManager.htm">
+      <HelpTOCNode Id="a00e650a-8f6c-408f-8e89-83dfc8adeac6" Title="swDocMan Class" Url="html/T_CADSharpTools_DocumentManager_swDocMan.htm">
+        <HelpTOCNode Title="swDocMan Constructor " Url="html/M_CADSharpTools_DocumentManager_swDocMan__ctor.htm" />
+        <HelpTOCNode Id="2e5b55ca-0a20-4ace-875b-77f83aa1e1e2" Title="swDocMan Methods" Url="html/Methods_T_CADSharpTools_DocumentManager_swDocMan.htm">
+          <HelpTOCNode Title="GetAllVisibleReferencedPartsFromAssembly Method " Url="html/M_CADSharpTools_DocumentManager_swDocMan_GetAllVisibleReferencedPartsFromAssembly.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0c994162-0d4a-4c00-87c9-62d0e94827ec" Title="CADSharpTools.DocumentManager.Models" Url="html/N_CADSharpTools_DocumentManager_Models.htm">
+      <HelpTOCNode Id="e3f46190-75ae-4efe-ab9a-1f3dbaf951ed" Title="swDocManVisibleReferencedDocument Class" Url="html/T_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument.htm">
+        <HelpTOCNode Title="swDocManVisibleReferencedDocument Constructor " Url="html/M_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument__ctor.htm" />
+        <HelpTOCNode Id="c2a3e0f8-8d19-4ffe-ab46-5a35d3698df9" Title="swDocManVisibleReferencedDocument Properties" Url="html/Properties_T_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument.htm">
+          <HelpTOCNode Title="ID Property " Url="html/P_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_ID.htm" />
+          <HelpTOCNode Title="PathName Property " Url="html/P_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_PathName.htm" />
+          <HelpTOCNode Title="ReferencedConfigurationNames Property " Url="html/P_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_ReferencedConfigurationNames.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6eaa2035-c460-4d0e-bf93-f19b1cf79ef5" Title="swDocManVisibleReferencedDocument Methods" Url="html/Methods_T_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument.htm">
+          <HelpTOCNode Title="AddConfigurationName Method " Url="html/M_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_AddConfigurationName.htm" />
+          <HelpTOCNode Title="ToString Method " Url="html/M_CADSharpTools_DocumentManager_Models_swDocManVisibleReferencedDocument_ToString.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="286b9e92-620d-42f8-abe7-898167d69791" Title="CADSharpTools.Exceptions" Url="html/N_CADSharpTools_Exceptions.htm">
+      <HelpTOCNode Id="164c9fec-c412-401f-a38f-959645a3505e" Title="CADSharpToolsPDMException Class" Url="html/T_CADSharpTools_Exceptions_CADSharpToolsPDMException.htm">
+        <HelpTOCNode Id="bdbf637d-bf1b-42c7-97cf-108a42b4856c" Title="CADSharpToolsPDMException Properties" Url="html/Properties_T_CADSharpTools_Exceptions_CADSharpToolsPDMException.htm">
+          <HelpTOCNode Title="MessageEnum Property " Url="html/P_CADSharpTools_Exceptions_CADSharpToolsPDMException_MessageEnum.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2944eebf-3900-4c5d-a1eb-4983bab32734" Title="CADSharpTools.MVVM.Models" Url="html/N_CADSharpTools_MVVM_Models.htm">
+      <HelpTOCNode Id="97747472-f98a-47c3-b73a-91ed3d9591b0" Title="Progress Class" Url="html/T_CADSharpTools_MVVM_Models_Progress.htm">
+        <HelpTOCNode Title="Progress Constructor " Url="html/M_CADSharpTools_MVVM_Models_Progress__ctor.htm" />
+        <HelpTOCNode Id="3cc04c37-5f70-49cf-8b23-666920a0e473" Title="Progress Properties" Url="html/Properties_T_CADSharpTools_MVVM_Models_Progress.htm">
+          <HelpTOCNode Title="IsIndeterminate Property " Url="html/P_CADSharpTools_MVVM_Models_Progress_IsIndeterminate.htm" />
+          <HelpTOCNode Title="Max Property " Url="html/P_CADSharpTools_MVVM_Models_Progress_Max.htm" />
+          <HelpTOCNode Title="Message Property " Url="html/P_CADSharpTools_MVVM_Models_Progress_Message.htm" />
+          <HelpTOCNode Title="ProgressColor Property " Url="html/P_CADSharpTools_MVVM_Models_Progress_ProgressColor.htm" />
+          <HelpTOCNode Title="Value Property " Url="html/P_CADSharpTools_MVVM_Models_Progress_Value.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0b89a414-8d45-465f-b462-29dcdc28fbdf" Title="Progress Methods" Url="html/Methods_T_CADSharpTools_MVVM_Models_Progress.htm">
+          <HelpTOCNode Title="Cancel Method " Url="html/M_CADSharpTools_MVVM_Models_Progress_Cancel.htm" />
+          <HelpTOCNode Title="Complete Method " Url="html/M_CADSharpTools_MVVM_Models_Progress_Complete.htm" />
+          <HelpTOCNode Title="CompleteWithError Method " Url="html/M_CADSharpTools_MVVM_Models_Progress_CompleteWithError.htm" />
+          <HelpTOCNode Title="Report Method " Url="html/M_CADSharpTools_MVVM_Models_Progress_Report.htm" />
+          <HelpTOCNode Title="Reset Method " Url="html/M_CADSharpTools_MVVM_Models_Progress_Reset.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3b9d5fcc-9a2c-409e-a1ea-f48735fcd913" Title="CADSharpTools.MVVM.ViewModels" Url="html/N_CADSharpTools_MVVM_ViewModels.htm">
+      <HelpTOCNode Id="bc919798-e6e4-449a-bf51-efde1212d551" Title="BusyIndicatorViewModel(T) Class" Url="html/T_CADSharpTools_MVVM_ViewModels_BusyIndicatorViewModel_1.htm">
+        <HelpTOCNode Title="BusyIndicatorViewModel(T) Constructor " Url="html/M_CADSharpTools_MVVM_ViewModels_BusyIndicatorViewModel_1__ctor.htm" />
+        <HelpTOCNode Id="5a934f6e-1a08-4102-a2bc-d54bba306667" Title="BusyIndicatorViewModel(T) Properties" Url="html/Properties_T_CADSharpTools_MVVM_ViewModels_BusyIndicatorViewModel_1.htm">
+          <HelpTOCNode Title="Callback Property " Url="html/P_CADSharpTools_MVVM_ViewModels_BusyIndicatorViewModel_1_Callback.htm" />
+          <HelpTOCNode Title="CancelCommand Property " Url="html/P_CADSharpTools_MVVM_ViewModels_BusyIndicatorViewModel_1_CancelCommand.htm" />
+          <HelpTOCNode Title="IsBusy Property " Url="html/P_CADSharpTools_MVVM_ViewModels_BusyIndicatorViewModel_1_IsBusy.htm" />
+          <HelpTOCNode Title="TimeElapsed Property " Url="html/P_CADSharpTools_MVVM_ViewModels_BusyIndicatorViewModel_1_TimeElapsed.htm" />
+          <HelpTOCNode Title="Title Property " Url="html/P_CADSharpTools_MVVM_ViewModels_BusyIndicatorViewModel_1_Title.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d9818d5b-f372-43b6-b563-3baf939d057a" Title="BusyIndicatorViewModel(T) Methods" Url="html/Methods_T_CADSharpTools_MVVM_ViewModels_BusyIndicatorViewModel_1.htm">
+          <HelpTOCNode Title="ShowView Method " Url="html/M_CADSharpTools_MVVM_ViewModels_BusyIndicatorViewModel_1_ShowView.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6a6435bd-9ba5-4855-ba47-10931ab418d0" Title="ErrorViewModel(T) Class" Url="html/T_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1.htm">
+        <HelpTOCNode Title="ErrorViewModel(T) Constructor " Url="html/M_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1__ctor.htm" />
+        <HelpTOCNode Id="9e23128c-d8db-4cc1-b068-08bfdf1e5cfc" Title="ErrorViewModel(T) Properties" Url="html/Properties_T_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1.htm">
+          <HelpTOCNode Title="Errors Property " Url="html/P_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_Errors.htm" />
+          <HelpTOCNode Title="IsIdle Property " Url="html/P_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_IsIdle.htm" />
+          <HelpTOCNode Title="ProgramFullName Property " Url="html/P_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_ProgramFullName.htm" />
+          <HelpTOCNode Title="SelectedError Property " Url="html/P_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_SelectedError.htm" />
+          <HelpTOCNode Title="SendReportCommand Property " Url="html/P_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_SendReportCommand.htm" />
+          <HelpTOCNode Title="SupportEmail Property " Url="html/P_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_SupportEmail.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8d5d556f-c7fb-4753-b941-0bb062761609" Title="ErrorViewModel(T) Methods" Url="html/Methods_T_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1.htm">
+          <HelpTOCNode Title="SendReport Method " Url="html/M_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_SendReport.htm" />
+          <HelpTOCNode Title="ShowView Method " Url="html/M_CADSharpTools_MVVM_ViewModels_ErrorViewModel_1_ShowView.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fcd3cc3e-9661-43b6-9d8b-cbcb19979c8e" Title="MessageViewModel Class" Url="html/T_CADSharpTools_MVVM_ViewModels_MessageViewModel.htm">
+        <HelpTOCNode Title="MessageViewModel Constructor " Url="html/M_CADSharpTools_MVVM_ViewModels_MessageViewModel__ctor.htm" />
+        <HelpTOCNode Id="042dbe5e-3433-4d41-bc32-91be6a99d55e" Title="MessageViewModel Properties" Url="html/Properties_T_CADSharpTools_MVVM_ViewModels_MessageViewModel.htm">
+          <HelpTOCNode Title="CloseCommand Property " Url="html/P_CADSharpTools_MVVM_ViewModels_MessageViewModel_CloseCommand.htm" />
+          <HelpTOCNode Title="Message Property " Url="html/P_CADSharpTools_MVVM_ViewModels_MessageViewModel_Message.htm" />
+          <HelpTOCNode Title="ProgramFullName Property " Url="html/P_CADSharpTools_MVVM_ViewModels_MessageViewModel_ProgramFullName.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7cace41f-fa31-49a2-a697-687afc4ae5a9" Title="MessageViewModel Methods" Url="html/Methods_T_CADSharpTools_MVVM_ViewModels_MessageViewModel.htm">
+          <HelpTOCNode Id="c74a1496-72fe-4875-a832-77dc412e58ac" Title="ShowView Method " Url="html/Overload_CADSharpTools_MVVM_ViewModels_MessageViewModel_ShowView.htm">
+            <HelpTOCNode Title="ShowView Method (Assembly, Boolean)" Url="html/M_CADSharpTools_MVVM_ViewModels_MessageViewModel_ShowView.htm" />
+            <HelpTOCNode Title="ShowView Method (String, Boolean)" Url="html/M_CADSharpTools_MVVM_ViewModels_MessageViewModel_ShowView_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="08b08ab5-d2fd-473d-a3e2-44af07c51a26" Title="CADSharpTools.PDM" Url="html/N_CADSharpTools_PDM.htm">
+      <HelpTOCNode Id="393051ba-97f2-4ddf-a305-e240be299485" Title="DocumentRebuilder Class" Url="html/T_CADSharpTools_PDM_DocumentRebuilder.htm">
+        <HelpTOCNode Title="DocumentRebuilder Constructor " Url="html/M_CADSharpTools_PDM_DocumentRebuilder__ctor.htm" />
+        <HelpTOCNode Id="89b195bb-eadf-43c0-9064-46c785bdb891" Title="DocumentRebuilder Properties" Url="html/Properties_T_CADSharpTools_PDM_DocumentRebuilder.htm">
+          <HelpTOCNode Title="Vault Property " Url="html/P_CADSharpTools_PDM_DocumentRebuilder_Vault.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f8127c05-5b04-417c-bc92-43beeb16995b" Title="Extension Class" Url="html/T_CADSharpTools_PDM_Extension.htm">
+        <HelpTOCNode Id="8a0d6adf-369a-40c6-b99e-301a01549d80" Title="Extension Methods" Url="html/Methods_T_CADSharpTools_PDM_Extension.htm">
+          <HelpTOCNode Id="084067ad-6827-4c03-bf5d-329f95ae1cda" Title="BatchCheckIn Method " Url="html/Overload_CADSharpTools_PDM_Extension_BatchCheckIn.htm">
             <HelpTOCNode Title="BatchCheckIn Method (IEdmVault5, IEdmFile5[], Int32)" Url="html/M_CADSharpTools_PDM_Extension_BatchCheckIn.htm" />
             <HelpTOCNode Title="BatchCheckIn Method (IEdmVault5, String[], Int32)" Url="html/M_CADSharpTools_PDM_Extension_BatchCheckIn_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="e7a6433c-0043-4aee-98c9-df4522bb70c9" Title="BatchCheckOutFiles Method " Url="html/Overload_CADSharpTools_PDM_Extension_BatchCheckOutFiles.htm">
+          <HelpTOCNode Id="3b8b1515-eb54-4dab-8073-4f21786b291d" Title="BatchCheckOutFiles Method " Url="html/Overload_CADSharpTools_PDM_Extension_BatchCheckOutFiles.htm">
             <HelpTOCNode Title="BatchCheckOutFiles Method (IEdmVault5, IEdmFile5[], Int32)" Url="html/M_CADSharpTools_PDM_Extension_BatchCheckOutFiles.htm" />
             <HelpTOCNode Title="BatchCheckOutFiles Method (IEdmVault5, String[], Int32)" Url="html/M_CADSharpTools_PDM_Extension_BatchCheckOutFiles_1.htm" />
           </HelpTOCNode>
@@ -105,75 +270,84 @@
           <HelpTOCNode Title="CheckOut Method " Url="html/M_CADSharpTools_PDM_Extension_CheckOut.htm" />
           <HelpTOCNode Title="GetAllFiles Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllFiles.htm" />
           <HelpTOCNode Title="GetAllFilesAsync Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllFilesAsync.htm" />
+          <HelpTOCNode Title="GetAllReferences Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllReferences.htm" />
           <HelpTOCNode Title="GetAllUserGroups Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllUserGroups.htm" />
           <HelpTOCNode Title="GetAllUsers Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllUsers.htm" />
+          <HelpTOCNode Title="GetAllWorkflows Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllWorkflows.htm" />
+          <HelpTOCNode Title="GetAllWorkflowStates Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllWorkflowStates.htm" />
+          <HelpTOCNode Title="GetAllWorkflowTransitions Method " Url="html/M_CADSharpTools_PDM_Extension_GetAllWorkflowTransitions.htm" />
           <HelpTOCNode Title="GetConfigurationSetting Method " Url="html/M_CADSharpTools_PDM_Extension_GetConfigurationSetting.htm" />
           <HelpTOCNode Title="GetDataCardVariable Method " Url="html/M_CADSharpTools_PDM_Extension_GetDataCardVariable.htm" />
           <HelpTOCNode Title="GetDrawing Method " Url="html/M_CADSharpTools_PDM_Extension_GetDrawing.htm" />
           <HelpTOCNode Title="GetFileLastModifiedDateTime Method " Url="html/M_CADSharpTools_PDM_Extension_GetFileLastModifiedDateTime.htm" />
+          <HelpTOCNode Title="GetFolder Method " Url="html/M_CADSharpTools_PDM_Extension_GetFolder.htm" />
+          <HelpTOCNode Title="GetFullName Method " Url="html/M_CADSharpTools_PDM_Extension_GetFullName.htm" />
           <HelpTOCNode Title="GetLastCheckInDateTime Method " Url="html/M_CADSharpTools_PDM_Extension_GetLastCheckInDateTime.htm" />
           <HelpTOCNode Title="GetLocalPath Method " Url="html/M_CADSharpTools_PDM_Extension_GetLocalPath.htm" />
           <HelpTOCNode Title="GetPDMFileReferencedDocuments Method " Url="html/M_CADSharpTools_PDM_Extension_GetPDMFileReferencedDocuments.htm" />
+          <HelpTOCNode Title="GetVariableFromDb Method " Url="html/M_CADSharpTools_PDM_Extension_GetVariableFromDb.htm" />
+          <HelpTOCNode Title="GetVariablesFromDB Method " Url="html/M_CADSharpTools_PDM_Extension_GetVariablesFromDB.htm" />
           <HelpTOCNode Title="GetVaultVariableNames Method " Url="html/M_CADSharpTools_PDM_Extension_GetVaultVariableNames.htm" />
+          <HelpTOCNode Title="HasLocalCopy Method " Url="html/M_CADSharpTools_PDM_Extension_HasLocalCopy.htm" />
+          <HelpTOCNode Title="IsSldAssembly Method " Url="html/M_CADSharpTools_PDM_Extension_IsSldAssembly.htm" />
+          <HelpTOCNode Title="IsSldDrawing Method " Url="html/M_CADSharpTools_PDM_Extension_IsSldDrawing.htm" />
+          <HelpTOCNode Title="IsSldPart Method " Url="html/M_CADSharpTools_PDM_Extension_IsSldPart.htm" />
           <HelpTOCNode Title="MsgBox Method " Url="html/M_CADSharpTools_PDM_Extension_MsgBox.htm" />
           <HelpTOCNode Title="SetDataCardVariable Method " Url="html/M_CADSharpTools_PDM_Extension_SetDataCardVariable.htm" />
+          <HelpTOCNode Title="SetDataCardVariable2 Method " Url="html/M_CADSharpTools_PDM_Extension_SetDataCardVariable2.htm" />
+          <HelpTOCNode Title="SetVariableToDb Method " Url="html/M_CADSharpTools_PDM_Extension_SetVariableToDb.htm" />
+          <HelpTOCNode Title="ShowInBillOfMaterials Method " Url="html/M_CADSharpTools_PDM_Extension_ShowInBillOfMaterials.htm" />
+          <HelpTOCNode Title="TryGetFolder Method " Url="html/M_CADSharpTools_PDM_Extension_TryGetFolder.htm" />
           <HelpTOCNode Title="TryGetObject(T) Method " Url="html/M_CADSharpTools_PDM_Extension_TryGetObject__1.htm" />
           <HelpTOCNode Title="UndoCheckOut Method " Url="html/M_CADSharpTools_PDM_Extension_UndoCheckOut.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="f847ea2d-012b-4ac8-ad4e-6c8120f70a4f" Title="CADSharpTools.PDM.Database" Url="html/N_CADSharpTools_PDM_Database.htm">
-      <HelpTOCNode Id="8bd66ffd-93a7-4497-9492-91f1a4dec6ed" Title="SQLHandler Class" Url="html/T_CADSharpTools_PDM_Database_SQLHandler.htm">
-        <HelpTOCNode Id="b60b17a0-9723-4535-91dd-6a4fd1fa4cd9" Title="SQLHandler Properties" Url="html/Properties_T_CADSharpTools_PDM_Database_SQLHandler.htm">
-          <HelpTOCNode Title="Connection Property " Url="html/P_CADSharpTools_PDM_Database_SQLHandler_Connection.htm" />
-          <HelpTOCNode Title="ConnectionString Property " Url="html/P_CADSharpTools_PDM_Database_SQLHandler_ConnectionString.htm" />
+    <HelpTOCNode Id="cc6098a5-7c93-48c2-aa82-50109f8e121f" Title="CADSharpTools.Serialization" Url="html/N_CADSharpTools_Serialization.htm">
+      <HelpTOCNode Id="65bd37e1-ec6e-488e-b08b-b1d6b65904de" Title="CTContractSerialization(T) Class" Url="html/T_CADSharpTools_Serialization_CTContractSerialization_1.htm">
+        <HelpTOCNode Title="CTContractSerialization(T) Constructor " Url="html/M_CADSharpTools_Serialization_CTContractSerialization_1__ctor.htm" />
+        <HelpTOCNode Id="35f9f09b-e49c-42db-b8df-07641bf59806" Title="CTContractSerialization(T) Methods" Url="html/Methods_T_CADSharpTools_Serialization_CTContractSerialization_1.htm">
+          <HelpTOCNode Title="Deserialize Method " Url="html/M_CADSharpTools_Serialization_CTContractSerialization_1_Deserialize.htm" />
+          <HelpTOCNode Title="SaveToXML Method " Url="html/M_CADSharpTools_Serialization_CTContractSerialization_1_SaveToXML.htm" />
+          <HelpTOCNode Title="Serialize Method " Url="html/M_CADSharpTools_Serialization_CTContractSerialization_1_Serialize.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="2e3d9638-ceb7-462e-9baf-88547117b5e2" Title="SQLHandler Methods" Url="html/Methods_T_CADSharpTools_PDM_Database_SQLHandler.htm">
-          <HelpTOCNode Title="Close Method " Url="html/M_CADSharpTools_PDM_Database_SQLHandler_Close.htm" />
-          <HelpTOCNode Title="Dispose Method " Url="html/M_CADSharpTools_PDM_Database_SQLHandler_Dispose.htm" />
-          <HelpTOCNode Title="Open Method " Url="html/M_CADSharpTools_PDM_Database_SQLHandler_Open.htm" />
-          <HelpTOCNode Id="09501f6f-7068-4153-8250-0e11c65ff32b" Title="PerformSQLTransaction Method " Url="html/Overload_CADSharpTools_PDM_Database_SQLHandler_PerformSQLTransaction.htm">
-            <HelpTOCNode Title="PerformSQLTransaction Method (Func(SqlConnection, MethodReturn(Boolean)))" Url="html/M_CADSharpTools_PDM_Database_SQLHandler_PerformSQLTransaction.htm" />
-            <HelpTOCNode Title="PerformSQLTransaction(T) Method (Func(SqlConnection, MethodReturn(T)))" Url="html/M_CADSharpTools_PDM_Database_SQLHandler_PerformSQLTransaction__1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="SetConnectionString Method " Url="html/M_CADSharpTools_PDM_Database_SQLHandler_SetConnectionString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="838afa07-5fb2-4282-ab68-5b686f2ae6e8" Title="CTSerialization(T) Class" Url="html/T_CADSharpTools_Serialization_CTSerialization_1.htm">
+        <HelpTOCNode Title="CTSerialization(T) Constructor " Url="html/M_CADSharpTools_Serialization_CTSerialization_1__ctor.htm" />
+        <HelpTOCNode Id="0e40d09a-22bf-4d99-904f-6e5573dc8a6d" Title="CTSerialization(T) Methods" Url="html/Methods_T_CADSharpTools_Serialization_CTSerialization_1.htm">
+          <HelpTOCNode Title="Deserialize Method " Url="html/M_CADSharpTools_Serialization_CTSerialization_1_Deserialize.htm" />
+          <HelpTOCNode Title="SaveToXML Method " Url="html/M_CADSharpTools_Serialization_CTSerialization_1_SaveToXML.htm" />
+          <HelpTOCNode Title="Serialize Method " Url="html/M_CADSharpTools_Serialization_CTSerialization_1_Serialize.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="51a64e55-a00b-4ffb-a18d-7c263860d39c" Title="CADSharpTools.PDM.MVVM.ViewModels" Url="html/N_CADSharpTools_PDM_MVVM_ViewModels.htm">
-      <HelpTOCNode Id="64275944-3d93-4d9b-a461-b431285e39bb" Title="ErrorViewModel(T) Class" Url="html/T_CADSharpTools_PDM_MVVM_ViewModels_ErrorViewModel_1.htm">
-        <HelpTOCNode Title="ErrorViewModel(T) Constructor " Url="html/M_CADSharpTools_PDM_MVVM_ViewModels_ErrorViewModel_1__ctor.htm" />
-        <HelpTOCNode Id="1f561de9-fe8c-4043-a609-c78b852006ae" Title="ErrorViewModel(T) Properties" Url="html/Properties_T_CADSharpTools_PDM_MVVM_ViewModels_ErrorViewModel_1.htm">
-          <HelpTOCNode Title="Errors Property " Url="html/P_CADSharpTools_PDM_MVVM_ViewModels_ErrorViewModel_1_Errors.htm" />
-          <HelpTOCNode Title="ProgramFullName Property " Url="html/P_CADSharpTools_PDM_MVVM_ViewModels_ErrorViewModel_1_ProgramFullName.htm" />
-          <HelpTOCNode Title="SupportEmail Property " Url="html/P_CADSharpTools_PDM_MVVM_ViewModels_ErrorViewModel_1_SupportEmail.htm" />
+    <HelpTOCNode Id="5ee94f14-0794-4d8c-b36f-61688e5e4716" Title="CADSharpTools.SOLIDWORKS" Url="html/N_CADSharpTools_SOLIDWORKS.htm">
+      <HelpTOCNode Id="d92d474e-00c8-4d57-b6c2-74def1527545" Title="Application Class" Url="html/T_CADSharpTools_SOLIDWORKS_Application.htm">
+        <HelpTOCNode Title="Application Constructor " Url="html/M_CADSharpTools_SOLIDWORKS_Application__ctor.htm" />
+        <HelpTOCNode Id="d5b62571-a015-46ad-9b87-6ce96b659b9d" Title="Application Properties" Url="html/Properties_T_CADSharpTools_SOLIDWORKS_Application.htm">
+          <HelpTOCNode Title="SOLIDWORKS Property " Url="html/P_CADSharpTools_SOLIDWORKS_Application_SOLIDWORKS.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="6a506ce5-692a-4b1d-9e19-8c393dff76ca" Title="ErrorViewModel(T) Methods" Url="html/Methods_T_CADSharpTools_PDM_MVVM_ViewModels_ErrorViewModel_1.htm">
-          <HelpTOCNode Title="ShowView Method " Url="html/M_CADSharpTools_PDM_MVVM_ViewModels_ErrorViewModel_1_ShowView.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="c1e129dd-5895-4c2d-b95b-3b30739e06ef" Title="MessageViewModel Class" Url="html/T_CADSharpTools_PDM_MVVM_ViewModels_MessageViewModel.htm">
-        <HelpTOCNode Title="MessageViewModel Constructor " Url="html/M_CADSharpTools_PDM_MVVM_ViewModels_MessageViewModel__ctor.htm" />
-        <HelpTOCNode Id="3e5cad36-2dbc-4467-b2fb-af630ba31cc1" Title="MessageViewModel Properties" Url="html/Properties_T_CADSharpTools_PDM_MVVM_ViewModels_MessageViewModel.htm">
-          <HelpTOCNode Title="Message Property " Url="html/P_CADSharpTools_PDM_MVVM_ViewModels_MessageViewModel_Message.htm" />
-          <HelpTOCNode Title="ProgramFullName Property " Url="html/P_CADSharpTools_PDM_MVVM_ViewModels_MessageViewModel_ProgramFullName.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="d207ac52-76d7-4129-b405-c6e2ea4d9d42" Title="MessageViewModel Methods" Url="html/Methods_T_CADSharpTools_PDM_MVVM_ViewModels_MessageViewModel.htm">
-          <HelpTOCNode Id="d52a121a-f209-41d8-853c-88278673c5ee" Title="ShowView Method " Url="html/Overload_CADSharpTools_PDM_MVVM_ViewModels_MessageViewModel_ShowView.htm">
-            <HelpTOCNode Title="ShowView Method (Assembly, Boolean)" Url="html/M_CADSharpTools_PDM_MVVM_ViewModels_MessageViewModel_ShowView.htm" />
-            <HelpTOCNode Title="ShowView Method (String, Boolean)" Url="html/M_CADSharpTools_PDM_MVVM_ViewModels_MessageViewModel_ShowView_1.htm" />
+        <HelpTOCNode Id="4ffea19b-15e3-4697-96d1-2a56b9f41410" Title="Application Methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Application.htm">
+          <HelpTOCNode Id="06707dd2-999b-48cd-8827-615da67aee95" Title="ConvertSWRevisionNumberToYear Method " Url="html/Overload_CADSharpTools_SOLIDWORKS_Application_ConvertSWRevisionNumberToYear.htm">
+            <HelpTOCNode Title="ConvertSWRevisionNumberToYear Method (Int32)" Url="html/M_CADSharpTools_SOLIDWORKS_Application_ConvertSWRevisionNumberToYear.htm" />
+            <HelpTOCNode Title="ConvertSWRevisionNumberToYear Method (String)" Url="html/M_CADSharpTools_SOLIDWORKS_Application_ConvertSWRevisionNumberToYear_1.htm" />
           </HelpTOCNode>
+          <HelpTOCNode Title="ConvertYearToSWRevisionNumber Method " Url="html/M_CADSharpTools_SOLIDWORKS_Application_ConvertYearToSWRevisionNumber.htm" />
+          <HelpTOCNode Title="CreateApplication Method " Url="html/M_CADSharpTools_SOLIDWORKS_Application_CreateApplication.htm" />
+          <HelpTOCNode Title="CreateSldWorks Method " Url="html/M_CADSharpTools_SOLIDWORKS_Application_CreateSldWorks.htm" />
+          <HelpTOCNode Title="Dispose Method " Url="html/M_CADSharpTools_SOLIDWORKS_Application_Dispose.htm" />
+          <HelpTOCNode Title="Exit Method " Url="html/M_CADSharpTools_SOLIDWORKS_Application_Exit.htm" />
+          <HelpTOCNode Title="GetSOLIDWORKSInstallationDirectory Method " Url="html/M_CADSharpTools_SOLIDWORKS_Application_GetSOLIDWORKSInstallationDirectory.htm" />
+          <HelpTOCNode Title="ReleaseYears Method " Url="html/M_CADSharpTools_SOLIDWORKS_Application_ReleaseYears.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="b570108d-9721-4283-a3fa-779b676bc150" Title="CADSharpTools.SOLIDWORKS" Url="html/N_CADSharpTools_SOLIDWORKS.htm">
-      <HelpTOCNode Id="f5b1fc7a-7905-4bf0-a0e3-ccdf1ada2bab" Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Extension.htm">
-        <HelpTOCNode Id="6273fdd5-3a59-4e13-b531-0c7715577482" Title="Extension Methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Extension.htm">
+      <HelpTOCNode Id="dd482759-f365-41b3-9dfa-f10df98b8c1e" Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Extension.htm">
+        <HelpTOCNode Id="69ba1e48-e3fb-4a91-b93c-5c895e267208" Title="Extension Methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Extension.htm">
           <HelpTOCNode Title="DeleteAllProperties Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_DeleteAllProperties.htm" />
           <HelpTOCNode Title="GetAllChildren Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetAllChildren.htm" />
           <HelpTOCNode Title="GetAllReferences Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetAllReferences.htm" />
-          <HelpTOCNode Title="GetAssemblyPartsPathsAndConfigurations Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetAssemblyPartsPathsAndConfigurations.htm" />
           <HelpTOCNode Title="GetMaterialNamesFromDataBase Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetMaterialNamesFromDataBase.htm" />
+          <HelpTOCNode Title="GetModelMass Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetModelMass.htm" />
           <HelpTOCNode Title="GetParentSheet Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetParentSheet.htm" />
           <HelpTOCNode Title="GetSelectedObjects(T) Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetSelectedObjects__1.htm" />
           <HelpTOCNode Title="GetSOLIDWORKSDocumentType Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_GetSOLIDWORKSDocumentType.htm" />
@@ -185,29 +359,24 @@
           <HelpTOCNode Title="OpenDocumentAsync Method " Url="html/M_CADSharpTools_SOLIDWORKS_Extension_OpenDocumentAsync.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="07500b5d-bdb3-4ef5-b5bb-d82b7651413f" Title="Measure Class" Url="html/T_CADSharpTools_SOLIDWORKS_Measure.htm">
-        <HelpTOCNode Id="db02ef56-c8d0-4ee0-aa4a-09bf4d43f9ab" Title="Measure Methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Measure.htm">
+      <HelpTOCNode Id="b03ee980-08f9-4369-8afb-6f85ccf9e826" Title="Measure Class" Url="html/T_CADSharpTools_SOLIDWORKS_Measure.htm">
+        <HelpTOCNode Id="39ebb3c2-ff94-4370-bd25-e308c135fc48" Title="Measure Methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Measure.htm">
           <HelpTOCNode Title="ConvertLength Method " Url="html/M_CADSharpTools_SOLIDWORKS_Measure_ConvertLength.htm" />
+          <HelpTOCNode Title="ConvertMass Method " Url="html/M_CADSharpTools_SOLIDWORKS_Measure_ConvertMass.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="9812f7a4-14c9-4ca3-8b79-5fa194340a1c" Title="Singleton Class" Url="html/T_CADSharpTools_SOLIDWORKS_Singleton.htm">
-        <HelpTOCNode Id="aa675494-d60c-439b-8b40-c57d1747d1d3" Title="Singleton Methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Singleton.htm">
+      <HelpTOCNode Id="a447df8a-9b27-4da6-bf6e-e9b379430521" Title="Singleton Class" Url="html/T_CADSharpTools_SOLIDWORKS_Singleton.htm">
+        <HelpTOCNode Id="39527f15-69ca-4fd0-b60e-33725a434a67" Title="Singleton Methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Singleton.htm">
+          <HelpTOCNode Title="Close Method " Url="html/M_CADSharpTools_SOLIDWORKS_Singleton_Close.htm" />
           <HelpTOCNode Title="Dispose Method " Url="html/M_CADSharpTools_SOLIDWORKS_Singleton_Dispose.htm" />
           <HelpTOCNode Title="GetApplication Method " Url="html/M_CADSharpTools_SOLIDWORKS_Singleton_GetApplication.htm" />
           <HelpTOCNode Title="GetApplicationAsync Method " Url="html/M_CADSharpTools_SOLIDWORKS_Singleton_GetApplicationAsync.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="79182fc9-2b50-428d-9d3b-f1bdbbc1c484" Title="SOLIDWORKSDialogBoxSuppresser Class" Url="html/T_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser.htm">
-        <HelpTOCNode Title="SOLIDWORKSDialogBoxSuppresser Constructor " Url="html/M_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser__ctor.htm" />
-        <HelpTOCNode Id="6897f73e-17cf-40e7-920f-977ab28ef3c9" Title="SOLIDWORKSDialogBoxSuppresser Methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser.htm">
-          <HelpTOCNode Title="Start Method " Url="html/M_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser_Start.htm" />
-          <HelpTOCNode Title="Stops Method " Url="html/M_CADSharpTools_SOLIDWORKS_SOLIDWORKSDialogBoxSuppresser_Stops.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b1e64a56-de8a-43a5-8b05-868d29dd2a4a" Title="CADSharpTools.SOLIDWORKS.Costing" Url="html/N_CADSharpTools_SOLIDWORKS_Costing.htm">
-      <HelpTOCNode Id="a7fc9e7d-7b64-423c-a2c4-d4b137a42e41" Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm">
-        <HelpTOCNode Id="69b09c71-c6ec-4e7b-bdf8-f72a944da1e4" Title="Extension Methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm">
+    <HelpTOCNode Id="51ec3873-a1b1-4fa8-8cf0-4c19a72533f0" Title="CADSharpTools.SOLIDWORKS.Costing" Url="html/N_CADSharpTools_SOLIDWORKS_Costing.htm">
+      <HelpTOCNode Id="6059fd2a-8705-4701-bfc7-23f37e5fd994" Title="Extension Class" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm">
+        <HelpTOCNode Id="8ce402a5-4d25-42c2-8a4d-6cd80840c03a" Title="Extension Methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_Costing_Extension.htm">
           <HelpTOCNode Title="GetCostingProperties Method " Url="html/M_CADSharpTools_SOLIDWORKS_Costing_Extension_GetCostingProperties.htm" />
           <HelpTOCNode Title="GetCostingType Method " Url="html/M_CADSharpTools_SOLIDWORKS_Costing_Extension_GetCostingType.htm" />
           <HelpTOCNode Title="GetMaterialClassName Method " Url="html/M_CADSharpTools_SOLIDWORKS_Costing_Extension_GetMaterialClassName.htm" />
@@ -215,10 +384,151 @@
       </HelpTOCNode>
       <HelpTOCNode Title="Extension.CostingType Enumeration" Url="html/T_CADSharpTools_SOLIDWORKS_Costing_Extension_CostingType.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="658e8b71-7471-48aa-89d2-6355b780cf54" Title="CADSharpTools_e" Url="html/N_CADSharpTools_e.htm">
+    <HelpTOCNode Id="4f271db8-0933-4937-8737-42c54e6f0a81" Title="CADSharpTools.SOLIDWORKS.UIAutomation" Url="html/N_CADSharpTools_SOLIDWORKS_UIAutomation.htm">
+      <HelpTOCNode Id="335fe25d-02be-4656-a583-4e13f946a5f3" Title="swDialog Class" Url="html/T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog.htm">
+        <HelpTOCNode Title="swDialog Constructor " Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog__ctor.htm" />
+        <HelpTOCNode Id="a72fba2d-61d1-4a60-ae25-9d87c3f8d9cd" Title="swDialog Properties" Url="html/Properties_T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog.htm">
+          <HelpTOCNode Title="Buttons Property " Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_Buttons.htm" />
+          <HelpTOCNode Title="Captions Property " Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_Captions.htm" />
+          <HelpTOCNode Title="CompareMethod Property " Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_CompareMethod.htm" />
+          <HelpTOCNode Title="Title Property " Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_Title.htm" />
+          <HelpTOCNode Title="UserAction Property " Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_UserAction.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="88c7508f-6531-4fed-9fc3-bf816872323c" Title="swDialog Methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog.htm">
+          <HelpTOCNode Title="AddButton Method " Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_AddButton.htm" />
+          <HelpTOCNode Title="CreateOpenFileDialog Method " Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_CreateOpenFileDialog.htm" />
+          <HelpTOCNode Title="CreateOptionsDialog Method " Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_CreateOptionsDialog.htm" />
+          <HelpTOCNode Title="CreateSystemLowMemoryDialog Method " Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_CreateSystemLowMemoryDialog.htm" />
+          <HelpTOCNode Title="IsEqual Method " Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialog_IsEqual.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b8c0f6db-6047-4089-ba44-4a4fb1f8f795" Title="swDialogButton Class" Url="html/T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogButton.htm">
+        <HelpTOCNode Title="swDialogButton Constructor " Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogButton__ctor.htm" />
+        <HelpTOCNode Id="e7e56666-6af5-4119-9b35-bc9d9168e5e5" Title="swDialogButton Properties" Url="html/Properties_T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogButton.htm">
+          <HelpTOCNode Title="AssociatedAction Property " Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogButton_AssociatedAction.htm" />
+          <HelpTOCNode Title="AssociatedAutomationElement Property " Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogButton_AssociatedAutomationElement.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="swDialogButtonAction_e Enumeration" Url="html/T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogButtonAction_e.htm" />
+      <HelpTOCNode Title="swDialogCompareMethod_e Enumeration" Url="html/T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogCompareMethod_e.htm" />
+      <HelpTOCNode Id="f2fd2fd8-faab-45e7-9688-9e3a5ce04152" Title="swDialogWatcher Class" Url="html/T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher.htm">
+        <HelpTOCNode Title="swDialogWatcher Constructor " Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher__ctor.htm" />
+        <HelpTOCNode Id="293cda16-a83c-433c-989f-a6163d57ef47" Title="swDialogWatcher Properties" Url="html/Properties_T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher.htm">
+          <HelpTOCNode Title="Dialogs Property " Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_Dialogs.htm" />
+          <HelpTOCNode Title="GenericAction Property " Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_GenericAction.htm" />
+          <HelpTOCNode Title="IsIdle Property " Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_IsIdle.htm" />
+          <HelpTOCNode Title="ProcessId Property " Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_ProcessId.htm" />
+          <HelpTOCNode Title="SOLIDWORKSProcess Property " Url="html/P_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_SOLIDWORKSProcess.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3f82b17f-a8d7-4468-9549-1f2c719c0e4c" Title="swDialogWatcher Methods" Url="html/Methods_T_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher.htm">
+          <HelpTOCNode Title="AddDialog Method " Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_AddDialog.htm" />
+          <HelpTOCNode Title="RemoveDialog Method " Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_RemoveDialog.htm" />
+          <HelpTOCNode Title="Start Method " Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_Start.htm" />
+          <HelpTOCNode Title="Stop Method " Url="html/M_CADSharpTools_SOLIDWORKS_UIAutomation_swDialogWatcher_Stop.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="874d3c5c-400f-4f28-9d9d-812b895198ed" Title="CADSharpTools.Testing" Url="html/N_CADSharpTools_Testing.htm">
+      <HelpTOCNode Id="fcc9605b-5bab-49bb-a7df-a44e904f52dc" Title="EdmObjectFactory Class" Url="html/T_CADSharpTools_Testing_EdmObjectFactory.htm">
+        <HelpTOCNode Id="b6955a69-0538-47f8-a882-cb72433c8371" Title="EdmObjectFactory Methods" Url="html/Methods_T_CADSharpTools_Testing_EdmObjectFactory.htm">
+          <HelpTOCNode Title="CreateFileObjectFromRelativePath Method " Url="html/M_CADSharpTools_Testing_EdmObjectFactory_CreateFileObjectFromRelativePath.htm" />
+          <HelpTOCNode Title="CreateVaultObject Method " Url="html/M_CADSharpTools_Testing_EdmObjectFactory_CreateVaultObject.htm" />
+          <HelpTOCNode Title="GetuserGroupObject Method " Url="html/M_CADSharpTools_Testing_EdmObjectFactory_GetuserGroupObject.htm" />
+          <HelpTOCNode Title="GetUserObject Method " Url="html/M_CADSharpTools_Testing_EdmObjectFactory_GetUserObject.htm" />
+          <HelpTOCNode Title="GetWorkflowTransition Method " Url="html/M_CADSharpTools_Testing_EdmObjectFactory_GetWorkflowTransition.htm" />
+          <HelpTOCNode Title="MockEdmCmd Method " Url="html/M_CADSharpTools_Testing_EdmObjectFactory_MockEdmCmd.htm" />
+          <HelpTOCNode Title="MockEdmCmdDataFromFile Method " Url="html/M_CADSharpTools_Testing_EdmObjectFactory_MockEdmCmdDataFromFile.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="7cd96ca5-f0ad-4536-b181-13160885207f" Title="ICmdLoadableUserControl Interface" Url="html/T_CADSharpTools_Testing_ICmdLoadableUserControl.htm">
+        <HelpTOCNode Id="5506bfdd-d933-499e-a285-669994a57030" Title="ICmdLoadableUserControl Methods" Url="html/Methods_T_CADSharpTools_Testing_ICmdLoadableUserControl.htm">
+          <HelpTOCNode Title="LoadData Method " Url="html/M_CADSharpTools_Testing_ICmdLoadableUserControl_LoadData.htm" />
+          <HelpTOCNode Title="StoreData Method " Url="html/M_CADSharpTools_Testing_ICmdLoadableUserControl_StoreData.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="cbf1f576-95d1-47f3-9b4e-399b560ab8fe" Title="mEdmCmdNode Class" Url="html/T_CADSharpTools_Testing_mEdmCmdNode.htm">
+        <HelpTOCNode Title="mEdmCmdNode Constructor " Url="html/M_CADSharpTools_Testing_mEdmCmdNode__ctor.htm" />
+        <HelpTOCNode Id="7233b7d5-a81c-486f-ad52-57d34e39eee4" Title="mEdmCmdNode Properties" Url="html/Properties_T_CADSharpTools_Testing_mEdmCmdNode.htm">
+          <HelpTOCNode Title="GetPropertyFunc Property " Url="html/P_CADSharpTools_Testing_mEdmCmdNode_GetPropertyFunc.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b184c304-4386-4d2b-bcc6-9cfe20f40830" Title="mEdmCmdNode Methods" Url="html/Methods_T_CADSharpTools_Testing_mEdmCmdNode.htm">
+          <HelpTOCNode Title="GetProperty Method " Url="html/M_CADSharpTools_Testing_mEdmCmdNode_GetProperty.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fb26e6d0-7128-4732-b839-59b86f757ece" Title="mEdmTaskInstance Class" Url="html/T_CADSharpTools_Testing_mEdmTaskInstance.htm">
+        <HelpTOCNode Title="mEdmTaskInstance Constructor " Url="html/M_CADSharpTools_Testing_mEdmTaskInstance__ctor.htm" />
+        <HelpTOCNode Id="2761de84-3ffe-4cc4-9e24-248aafbce558" Title="mEdmTaskInstance Properties" Url="html/Properties_T_CADSharpTools_Testing_mEdmTaskInstance.htm">
+          <HelpTOCNode Title="GetVarExExtended Property " Url="html/P_CADSharpTools_Testing_mEdmTaskInstance_GetVarExExtended.htm" />
+          <HelpTOCNode Title="GetVarExtended Property " Url="html/P_CADSharpTools_Testing_mEdmTaskInstance_GetVarExtended.htm" />
+          <HelpTOCNode Title="ID Property " Url="html/P_CADSharpTools_Testing_mEdmTaskInstance_ID.htm" />
+          <HelpTOCNode Title="InstanceGUID Property " Url="html/P_CADSharpTools_Testing_mEdmTaskInstance_InstanceGUID.htm" />
+          <HelpTOCNode Title="TaskGUID Property " Url="html/P_CADSharpTools_Testing_mEdmTaskInstance_TaskGUID.htm" />
+          <HelpTOCNode Title="TaskName Property " Url="html/P_CADSharpTools_Testing_mEdmTaskInstance_TaskName.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="37f8d0f4-f7b2-40db-bcc9-1a7ab19b9d56" Title="mEdmTaskInstance Methods" Url="html/Methods_T_CADSharpTools_Testing_mEdmTaskInstance.htm">
+          <HelpTOCNode Title="GetStatus Method " Url="html/M_CADSharpTools_Testing_mEdmTaskInstance_GetStatus.htm" />
+          <HelpTOCNode Title="GetValEx Method " Url="html/M_CADSharpTools_Testing_mEdmTaskInstance_GetValEx.htm" />
+          <HelpTOCNode Title="GetVar Method " Url="html/M_CADSharpTools_Testing_mEdmTaskInstance_GetVar.htm" />
+          <HelpTOCNode Title="SetProgressPos Method " Url="html/M_CADSharpTools_Testing_mEdmTaskInstance_SetProgressPos.htm" />
+          <HelpTOCNode Title="SetProgressRange Method " Url="html/M_CADSharpTools_Testing_mEdmTaskInstance_SetProgressRange.htm" />
+          <HelpTOCNode Title="SetStatus Method " Url="html/M_CADSharpTools_Testing_mEdmTaskInstance_SetStatus.htm" />
+          <HelpTOCNode Title="SetValEx Method " Url="html/M_CADSharpTools_Testing_mEdmTaskInstance_SetValEx.htm" />
+          <HelpTOCNode Title="SetVar Method " Url="html/M_CADSharpTools_Testing_mEdmTaskInstance_SetVar.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="bbb2d664-a12a-441f-b890-cd9b632940d8" Title="mEdmTaskProperties Class" Url="html/T_CADSharpTools_Testing_mEdmTaskProperties.htm">
+        <HelpTOCNode Title="mEdmTaskProperties Constructor " Url="html/M_CADSharpTools_Testing_mEdmTaskProperties__ctor.htm" />
+        <HelpTOCNode Id="4a25a444-586a-4361-aa4a-56c628f812bf" Title="mEdmTaskProperties Properties" Url="html/Properties_T_CADSharpTools_Testing_mEdmTaskProperties.htm">
+          <HelpTOCNode Title="AddInName Property " Url="html/P_CADSharpTools_Testing_mEdmTaskProperties_AddInName.htm" />
+          <HelpTOCNode Title="FormName Property " Url="html/P_CADSharpTools_Testing_mEdmTaskProperties_FormName.htm" />
+          <HelpTOCNode Title="IsScheduled Property " Url="html/P_CADSharpTools_Testing_mEdmTaskProperties_IsScheduled.htm" />
+          <HelpTOCNode Title="RetryCount Property " Url="html/P_CADSharpTools_Testing_mEdmTaskProperties_RetryCount.htm" />
+          <HelpTOCNode Title="TaskFlags Property " Url="html/P_CADSharpTools_Testing_mEdmTaskProperties_TaskFlags.htm" />
+          <HelpTOCNode Title="TaskGUID Property " Url="html/P_CADSharpTools_Testing_mEdmTaskProperties_TaskGUID.htm" />
+          <HelpTOCNode Title="TaskID Property " Url="html/P_CADSharpTools_Testing_mEdmTaskProperties_TaskID.htm" />
+          <HelpTOCNode Title="TaskName Property " Url="html/P_CADSharpTools_Testing_mEdmTaskProperties_TaskName.htm" />
+          <HelpTOCNode Title="TimeoutInSeconds Property " Url="html/P_CADSharpTools_Testing_mEdmTaskProperties_TimeoutInSeconds.htm" />
+          <HelpTOCNode Title="UserName Property " Url="html/P_CADSharpTools_Testing_mEdmTaskProperties_UserName.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9c326fda-0406-464c-9ab8-0fe8bcd9ee96" Title="mEdmTaskProperties Methods" Url="html/Methods_T_CADSharpTools_Testing_mEdmTaskProperties.htm">
+          <HelpTOCNode Title="GetMenuCmds Method " Url="html/M_CADSharpTools_Testing_mEdmTaskProperties_GetMenuCmds.htm" />
+          <HelpTOCNode Title="GetSel Method " Url="html/M_CADSharpTools_Testing_mEdmTaskProperties_GetSel.htm" />
+          <HelpTOCNode Title="GetSetupPages Method " Url="html/M_CADSharpTools_Testing_mEdmTaskProperties_GetSetupPages.htm" />
+          <HelpTOCNode Title="GetValEx Method " Url="html/M_CADSharpTools_Testing_mEdmTaskProperties_GetValEx.htm" />
+          <HelpTOCNode Title="GetVar Method " Url="html/M_CADSharpTools_Testing_mEdmTaskProperties_GetVar.htm" />
+          <HelpTOCNode Title="SetMenuCmds Method " Url="html/M_CADSharpTools_Testing_mEdmTaskProperties_SetMenuCmds.htm" />
+          <HelpTOCNode Title="SetSel Method " Url="html/M_CADSharpTools_Testing_mEdmTaskProperties_SetSel.htm" />
+          <HelpTOCNode Title="SetSetupPages Method " Url="html/M_CADSharpTools_Testing_mEdmTaskProperties_SetSetupPages.htm" />
+          <HelpTOCNode Title="SetValEx Method " Url="html/M_CADSharpTools_Testing_mEdmTaskProperties_SetValEx.htm" />
+          <HelpTOCNode Title="SetVar Method " Url="html/M_CADSharpTools_Testing_mEdmTaskProperties_SetVar.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="432c71a5-4473-4e43-8689-b29a332c03ea" Title="OnTaskSetupUserControlContainer(T) Class" Url="html/T_CADSharpTools_Testing_OnTaskSetupUserControlContainer_1.htm">
+        <HelpTOCNode Id="15b124f0-555c-4aca-86f3-a0203e41dc4a" Title="OnTaskSetupUserControlContainer(T) Properties" Url="html/Properties_T_CADSharpTools_Testing_OnTaskSetupUserControlContainer_1.htm">
+          <HelpTOCNode Title="Cmd Property " Url="html/P_CADSharpTools_Testing_OnTaskSetupUserControlContainer_1_Cmd.htm" />
+          <HelpTOCNode Title="UserControl Property " Url="html/P_CADSharpTools_Testing_OnTaskSetupUserControlContainer_1_UserControl.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b2bfeadb-3f84-4d99-846e-f638df91cdec" Title="OnTaskSetupUserControlContainer(T) Methods" Url="html/Methods_T_CADSharpTools_Testing_OnTaskSetupUserControlContainer_1.htm">
+          <HelpTOCNode Title="CreateShell Method " Url="html/M_CADSharpTools_Testing_OnTaskSetupUserControlContainer_1_CreateShell.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="69abc562-3555-44b2-aa7d-861245b1fd18" Title="Tools Class" Url="html/T_CADSharpTools_Testing_Tools.htm">
+        <HelpTOCNode Id="8f434a04-693e-4111-a7fe-e3775ab57422" Title="Tools Methods" Url="html/Methods_T_CADSharpTools_Testing_Tools.htm">
+          <HelpTOCNode Title="AttachToDebugger Method " Url="html/M_CADSharpTools_Testing_Tools_AttachToDebugger.htm" />
+          <HelpTOCNode Id="81315e91-7bbb-4691-9b70-2f3dc003bead" Title="ExecuteTest Method " Url="html/Overload_CADSharpTools_Testing_Tools_ExecuteTest.htm">
+            <HelpTOCNode Title="ExecuteTest Method (Action, String)" Url="html/M_CADSharpTools_Testing_Tools_ExecuteTest.htm" />
+            <HelpTOCNode Title="ExecuteTest Method (Func(String, String[]), String)" Url="html/M_CADSharpTools_Testing_Tools_ExecuteTest_2.htm" />
+            <HelpTOCNode Title="ExecuteTest Method (Action(String), String, String)" Url="html/M_CADSharpTools_Testing_Tools_ExecuteTest_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="ExecuteTests Method " Url="html/M_CADSharpTools_Testing_Tools_ExecuteTests.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="30be36ab-dc1f-4a6f-843b-ceaed61b7b85" Title="CADSharpTools_e" Url="html/N_CADSharpTools_e.htm">
       <HelpTOCNode Title="CADSharpToolsPDMExceptionMessages_e Enumeration" Url="html/T_CADSharpTools_e_CADSharpToolsPDMExceptionMessages_e.htm" />
       <HelpTOCNode Title="GetDataCardVariableReturn_e Enumeration" Url="html/T_CADSharpTools_e_GetDataCardVariableReturn_e.htm" />
       <HelpTOCNode Title="LengthUnits_e Enumeration" Url="html/T_CADSharpTools_e_LengthUnits_e.htm" />
+      <HelpTOCNode Title="SpecialFolder Enumeration" Url="html/T_CADSharpTools_e_SpecialFolder.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
 </HelpTOC>
